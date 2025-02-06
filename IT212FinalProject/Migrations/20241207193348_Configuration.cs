@@ -80,6 +80,7 @@ namespace IT212FinalProject.Migrations
             table: "Products",
             columns: new[] { "ID", "ProductName", "ProductDescription", "ProductCategoryName", "UnitOfMeasure" },
             values: new object[] { 1, "Slacks", "Wearable outer garment, lower body", "Pants", "Each" });
+        }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
